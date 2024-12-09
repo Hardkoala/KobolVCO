@@ -1,5 +1,6 @@
 # **KobolVCO - VST Plugin** 🎛️  
-> *Modeling the Behringer Kobol VCO using JUCE and analysis with Python
+
+*Modeling the Behringer Kobol VCO using JUCE and analysis with Python
 
 
 This project focuses on the digital emulation of the analog Behringer Kobol synthesizer's Voltage-Controlled Oscillator (VCO). 
