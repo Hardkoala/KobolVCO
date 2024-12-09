@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<magic>
+  <Styles>
+    <Style name="default">
+      <Nodes/>
+      <Classes>
+        <plot-view border="2" background-color="black" border-color="silver" display="contents"/>
+        <nomargin margin="0" padding="0" border="0"/>
+        <group margin="5" padding="5" border="2" flex-direction="column"/>
+        <transparent background-color="transparentblack"/>
+      </Classes>
+      <Types>
+        <Slider border="0" slider-textbox="textbox-below"/>
+        <ToggleButton border="0" max-height="50" caption-size="0" text="Active"/>
+        <TextButton border="0" max-height="50" caption-size="0"/>
+        <ComboBox border="0" max-height="50" caption-size="0"/>
+        <Plot border="0" margin="0" padding="0" background-color="00000000"
+              radius="0"/>
+        <XYDragComponent border="0" margin="0" padding="0" background-color="00000000"
+                         radius="0"/>
+      </Types>
+      <Palettes>
+        <default/>
+      </Palettes>
+    </Style>
+  </Styles>
+  <View id="root" resizable="0" resize-corner="1" flex-direction="column"
+        width="720" height="380">
+    <View class="parameters nomargin" display="">
+      <View flex-grow="1.0">
+        <Slider id="WaveForm" parameter="waveF" caption="WAVEFORM" background-image="WAVEFORM_v01_2_png"/>
+        <Slider caption="VOLUME" parameter="outputLevel" id="outputLevel"/>
+      </View>
+      <View pos-x="74.9189%" pos-y="0%" pos-width="25.0811%" pos-height="100%"
+            display="flexbox" scroll-mode="no-scroll" flex-wrap="nowrap"
+            background-color="FF000000">
+        <Plot source="FFT" pos-x="-196.698%" pos-y="-5.43478%" pos-width="241.981%"
+              pos-height="100%" id="fft" plot-fill-color="FF1CB899"/>
+        <Plot id="oscilloscope" source="oscilloscope" plot-inactive-fill-color="FFCA0E0E"
+              plot-fill-color="FF1CB899"/>
+      </View>
+    </View>
+    <View>
+      <KeyboardComponent id="keys"/>
+    </View>
+  </View>
+</magic>
