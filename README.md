@@ -21,7 +21,7 @@ If you use this project or reference the thesis, please cite it as follows:
 
 ```bibtex
 @misc{malpica2024kobolvco,
-  author       = {Victor Malpica Gómez},
+  author       = {Valentín Malpica Gómez},
   title        = {Virtualization of the Behringer Kobol Synthesizer VCO},
   year         = {2024},
   publisher    = {Zenodo},
