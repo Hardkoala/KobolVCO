@@ -17,6 +17,8 @@ This work was developed as part of a Master's thesis at **Universitat Pompeu Fab
 
 ## Citation  
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13862935.svg)](https://doi.org/10.5281/zenodo.13862935)
+
 If you use this project or reference the thesis, please cite it as follows:
 
 ```bibtex
