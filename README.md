@@ -27,7 +27,8 @@ If you use this project or reference the thesis, please cite it as follows:
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.13862935},
   url          = {https://doi.org/10.5281/zenodo.13862935}
-}´´´
+}
+```
 
 
 
