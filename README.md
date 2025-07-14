@@ -1,6 +1,6 @@
 # **KobolVCO - VST Plugin** 🎛️  
 
-*Modeling the Behringer Kobol VCO 
+## Modeling the Behringer Kobol VCO 
 
 This project focuses on the **digital emulation** of the analog **Behringer Kobol synthesizer's Voltage-Controlled Oscillator (VCO)**.
 
